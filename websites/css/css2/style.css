@@ -1,0 +1,64 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:0;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.sum {
+    position: relative;
+    height :500px;
+    width:450px;
+    border-radius: 20%;
+    padding:100px;
+    box-sizing: border-box;
+    background-color:rgb(192, 230, 240);
+    box-shadow: 14px 14px 20px rgb(210, 182, 238) , -14px -14px 20px rgb(221, 201, 240);
+}
+.logo {
+    height:100px;
+    width:100px;
+    background : url(../css2/image/proffile.jpg);
+    margin: auto;
+    border-radius: 50%;
+    box-sizing: border-box;
+
+}
+.title {
+       color:blue;
+}
+.inputs {
+    text-align: left;
+    margin-top: 30px;
+}
+label,input,button {
+    display: block;
+    width:100%;
+    padding:0;
+    border: none;
+    box-sizing: border-box;
+    color:rgb(60, 5, 138);
+}
+label {
+    margin-bottom: 10px;
+}
+label:nth-of-type(2){
+    margin-top: 10px;
+}
+input {
+    padding:10px;
+    padding-left: 20px;
+    box-shadow:  14px 14px 20px rgb(131, 125, 125), -14px -14px 20px rgb(213, 205, 205);
+    border-radius: 50px;
+    height:50px;
+    
+}
+button {
+    margin-top: 20px;
+    background-color: rgb(10, 78, 162);
+    height:30px;
+    border-radius: 20px;
+    color:white;
+}

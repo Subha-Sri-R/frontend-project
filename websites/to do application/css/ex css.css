@@ -1,0 +1,36 @@
+.container {
+    background-color: rgb(136, 134, 247);
+    width: 50%;
+    height: auto;
+    padding-top: 7%;
+    padding-bottom: 30%;
+    box-sizing: border-box;
+    border-radius: 2%;
+    text-align: center;
+}
+.delete-btn {
+    background-color:white;
+    border-radius: 1%;
+    padding-right: 2%;
+    width:32%;
+   
+}
+#todo-list {
+      box-sizing: border-box;
+      background-color: blueviolet;
+      border-radius: 4%;
+      text-align: center;
+    
+}
+.todoinput {
+    
+    text-align: right;
+} 
+.addtodo {
+    text-align: right;
+}
+.li {
+    text-align: right;
+    box-sizing: border-box;
+    background-color: blue ;
+}
